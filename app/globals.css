@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply dark:bg-dark1 bg-slate-50;
+}
+
+.site-width {
+  @apply max-w-5xl mx-auto w-full;
+}
+
+.xPadding {
+  @apply px-6 sm:px-10 xl:px-0;
+}
+
+.yPageMargin {
+  @apply sm:py-8 py-6;
+}
+
+h1 {
+  @apply sm:text-3xl text-xl font-semibold;
+}
+
+p {
+  @apply dark:text-neutral-300;
+}
