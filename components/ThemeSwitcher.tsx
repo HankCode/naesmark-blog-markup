@@ -18,14 +18,14 @@ const ThemeSwitcher = () => {
   }
 
   return (
-    <div className="flex gap-x-3 items-center">
+    <div className="flex gap-x-3 items-center cursor-pointer">
       {theme === "dark" ? (
         <div onClick={() => setTheme("light")}>
-          <MdLightMode className="sm:w-6 sm:h-6 w-5 h-5" />
+          <MdLightMode className="sm:w-9 sm:h-9 w-6 h-6" />
         </div>
       ) : (
         <div onClick={() => setTheme("dark")}>
-          <MdDarkMode className="w-6 h-6" />
+          <MdDarkMode className="sm:w-9 sm:h-9 w-6 h-6" />
         </div>
       )}
     </div>
